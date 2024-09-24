@@ -2,5 +2,33 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
+}
+/* Header css */
+
+.header{
+  width: 100%;
+  padding: 20px 100px;
+  background: #f6f8ff;
+  scroll-behavior: smooth;
+}
+.logo{
+  font-family: 'Oswald', sans-serif;
+  color: rgb(15, 15, 59);
+}
+.header:hover{
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.header-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+  color: rgb(15, 15, 59);
+  font-weight: 400;
+  font-size: 17px;
 }
